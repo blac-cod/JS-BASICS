@@ -147,6 +147,7 @@ const ProductHero = () => {
                 className="w-full transition-opacity duration-500"
                 src={currentColor.class}
                 alt={`BlackCode sneakers in ${currentColor.name}`}
+                loading="lazy"
               />
             </div>
           </div>
